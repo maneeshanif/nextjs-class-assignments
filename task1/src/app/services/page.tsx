@@ -1,14 +1,12 @@
-import React from 'react'
-import  Services from '../components/services'
+import React from "react";
+import Services from "../components/services";
 
 const page = () => {
   return (
     <div>
-
-<Services/>
-      
+      <Services />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

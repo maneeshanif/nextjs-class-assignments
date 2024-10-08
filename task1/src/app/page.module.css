@@ -1,16 +1,16 @@
-.home{
-  /* border: 1px solid black; */
+.home {
   height: 100%;
   width: 100%;
-  background: #B6FFA1;
-  color: brown;
+  background: #b6ffa1;
 }
-.nav{
+.nav {
   display: flex;
-font-size: 1.5rem;
-font-weight: bold;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-decoration: none;
-text-transform: uppercase;
-gap:2rem
+  justify-content: center;
+  background-color: aquamarine;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  gap: 1rem;
 }

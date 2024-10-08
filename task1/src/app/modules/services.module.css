@@ -1,12 +1,12 @@
 .services{
-    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    gap:1rem;
+    margin: 0 1rem;
+    padding: 2px;
     background: #FFE700;
     color: orange;
 }
