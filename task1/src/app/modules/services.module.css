@@ -1,0 +1,12 @@
+.services{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #FFE700;
+    color: orange;
+}
