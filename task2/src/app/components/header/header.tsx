@@ -5,11 +5,11 @@ import logo from "../../assets/logo.png"
 const Header = () => {
   return (
     <>
-    <div className='bg-[#5ff62c]  h-24 p-5 flex '>
+    <div className='bg-[#5ff62c]  h-24 p-5 flex flex-row'>
         <div>
-            <Image src={logo} alt="hero image" width={100} height={5000} ></Image>
+            <Image src={logo} alt="hero image" width={90} height={90} ></Image>
         </div>
-        <div className=' ml-10'>
+        <div className=' ml-[40%] '>
             <ul>
                 <li>Found a Store</li>
                 <li>About Us</li>
