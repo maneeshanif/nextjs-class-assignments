@@ -1,18 +1,17 @@
-import React from 'react'
-import Image from 'next/image'
-
+import React from "react";
+import Logo from "../../../public/images/nikonlogo.svg"
+import Image from "next/image";
 
 const Navbar = () => {
-
-
   return (
     <>
-    <div>
-     <Image src="/logo.svg" alt="logo" width={100} height={100} ></Image>
-    </div>
-      
+      <nav className="bg-black/70 w-full h-[7rem] fixed top-0 z-10 ">
+       <div>
+         <Image src={Logo} alt="logo" width={70} height={70} className="mx-[7rem] mt-6" />
+       </div>
+      </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
